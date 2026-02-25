@@ -1,6 +1,5 @@
 #include <xc.h>
 #include "main.h"
-#include "LCD.h"
 #include "reloj.h"
 
 /* ── Configuración del hardware ────────────────────────────────────────────── */
@@ -11,8 +10,6 @@ static void configuro(void) {
     OSCEN   = 0x40;
     /* RELOJ */
     iniciar_reloj();
-    /* LCD */
-    LCD_INIT();
 }
 
 /* ── Main ──────────────────────────────────────────────────────────────────── */
