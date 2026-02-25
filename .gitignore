@@ -1,0 +1,24 @@
+# ===========================
+# MPLAB X build outputs
+# ===========================
+Clock24H12H.X/dist/
+Clock24H12H.X/build/
+Clock24H12H.X/debug/
+
+# ===========================
+# MPLAB X private settings
+# ===========================
+Clock24H12H.X/nbproject/private/
+
+# ===========================
+# Proteus backups & workspace
+# ===========================
+Project Backups/
+*.pdsprj.*.workspace
+
+# ===========================
+# OS generated files
+# ===========================
+Thumbs.db
+Desktop.ini
+.DS_Store
